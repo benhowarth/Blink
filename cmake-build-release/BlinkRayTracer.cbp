@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlinkRayTracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Ben coding/BlinkRayTracer/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlinkRayTracer">
+				<Option output="D:/Ben coding/BlinkRayTracer/cmake-build-release/BlinkRayTracer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Ben coding/BlinkRayTracer/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 BlinkRayTracer"/>
+					<CompileFile command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlinkRayTracer/fast">
+				<Option output="D:/Ben coding/BlinkRayTracer/cmake-build-release/BlinkRayTracer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Ben coding/BlinkRayTracer/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 BlinkRayTracer/fast"/>
+					<CompileFile command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Ben coding/BlinkRayTracer/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Ben coding/BlinkRayTracer/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Ben coding/C stuff/mingw-w64/i686-6.1.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/Ben coding/BlinkRayTracer/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Ben coding/BlinkRayTracer/main.cpp">
+			<Option target="BlinkRayTracer"/>
+		</Unit>
+		<Unit filename="D:/Ben coding/BlinkRayTracer/main2.cpp">
+			<Option target="BlinkRayTracer"/>
+		</Unit>
+		<Unit filename="D:/Ben coding/BlinkRayTracer/main2.h">
+			<Option target="BlinkRayTracer"/>
+		</Unit>
+		<Unit filename="D:/Ben coding/BlinkRayTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

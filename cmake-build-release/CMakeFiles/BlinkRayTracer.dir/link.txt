@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\BlinkRayTracer.dir/objects.a
+"D:\Ben coding\C stuff\mingw-w64\i686-6.1.0-posix-dwarf-rt_v5-rev1\mingw32\bin\ar.exe" cr CMakeFiles\BlinkRayTracer.dir/objects.a @CMakeFiles\BlinkRayTracer.dir\objects1.rsp
+"D:\Ben coding\C stuff\mingw-w64\i686-6.1.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe" -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\BlinkRayTracer.dir/objects.a -Wl,--no-whole-archive  -o BlinkRayTracer.exe -Wl,--out-implib,libBlinkRayTracer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BlinkRayTracer.dir\linklibs.rsp
